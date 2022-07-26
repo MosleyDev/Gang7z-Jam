@@ -15,11 +15,10 @@ public class Dispenser : MonoBehaviour
     }
     IEnumerator ArrowLoop()
     {
-        while (true)
-        {
-            SpawnArrow();
-            yield return new WaitForSeconds(_spawnDuration);
-        }
+        SpawnArrow();
+        yield return new WaitForSeconds(_spawnDuration);
+
+        StartCoroutine(ArrowLoop());
     }
     private void SpawnArrow()
     {
