@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour{
 
     [SerializeField] private SpriteAnimation run;
     [SerializeField] private SpriteAnimation idle;
+    [SerializeField] private SpriteAnimation runGrab_Up;
     [SerializeField] private AnimationManager anim;
     
     [Space(20)]
@@ -29,7 +30,9 @@ public class PlayerController : MonoBehaviour{
         isRun = Mathf.Abs(inputRaw) > 0 ? true : false; 
 
         if(Mathf.Abs(inputRaw) > 0){
+
             anim.ChangeState(run);
+
         }else{
             anim.ChangeState(idle);
         }
