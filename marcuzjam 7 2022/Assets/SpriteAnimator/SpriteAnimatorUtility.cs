@@ -339,7 +339,6 @@ namespace PixelAnimator{
                 else if(type == typeof(bool)){  
                     bool alreadyExist = hitboxData.boolProps.Any(x => x.iD == iD);
                     if(!alreadyExist){
-                        Debug.Log("saaaa");
                         DrawProperty(type);
                     }else{
 
