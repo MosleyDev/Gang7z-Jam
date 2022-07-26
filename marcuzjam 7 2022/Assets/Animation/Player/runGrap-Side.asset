@@ -13,6 +13,247 @@ MonoBehaviour:
   m_Name: runGrap-Side
   m_EditorClassIdentifier: 
   loop: 1
-  frameRate: 0
-  sprites: []
-  layers: []
+  frameRate: 12
+  sprites:
+  - {fileID: -1958448775212475424, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: 1675714506039071908, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: -2618947354927014033, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: -2651852277310223797, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: 7630278836521096023, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: -7605441262033626777, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: -2413205113850221409, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  - {fileID: -4644640307037518504, guid: d5d1a4a706fbb81499dd507a0c265a3d, type: 3}
+  layers:
+  - group:
+      color: {r: 0.37753648, g: 0.7924528, b: 0.3981156, a: 1}
+      boxType: asdasd
+      activeLayer: 7
+      physicMaterial: {fileID: 0}
+      rounded: 0
+      groupID: 752913415
+    frames:
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 9
+        height: 24
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 9
+        height: 23
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 9
+        height: 24
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 9
+        height: 26
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 9
+        height: 24
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 9
+        height: 23
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 6
+        width: 9
+        height: 25
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 9
+        height: 26
+    reSizeBox: 1
+    onHandleTopleft: 0
+    onHandleTopCenter: 0
+    onHandleTopRight: 0
+    onHandleRightCenter: 0
+    onHandleBottomRight: 0
+    onHandleBottomCenter: 0
+    onHandleBottomLeft: 0
+    onHandleLeftCenter: 0
