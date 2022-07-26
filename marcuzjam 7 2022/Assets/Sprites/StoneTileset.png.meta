@@ -56,6 +56,15 @@ TextureImporter:
   - first:
       213: 3161959826353838418
     second: StoneTileset_17
+  - first:
+      213: -552157379039159011
+    second: StoneTileset_18
+  - first:
+      213: -5741997255313240625
+    second: StoneTileset_19
+  - first:
+      213: 3133846639710257294
+    second: StoneTileset_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +170,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -182,7 +191,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -203,7 +212,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -224,7 +233,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -245,7 +254,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -266,7 +275,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -287,7 +296,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -308,7 +317,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -329,7 +338,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -350,7 +359,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 96
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -371,7 +380,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -392,7 +401,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -413,7 +422,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -433,8 +442,8 @@ TextureImporter:
       name: StoneTileset_13
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 80
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -454,8 +463,8 @@ TextureImporter:
       name: StoneTileset_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -475,8 +484,8 @@ TextureImporter:
       name: StoneTileset_15
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
+        x: 32
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -496,8 +505,8 @@ TextureImporter:
       name: StoneTileset_16
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
+        x: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -517,8 +526,8 @@ TextureImporter:
       name: StoneTileset_17
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 96
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -530,6 +539,69 @@ TextureImporter:
       bones: []
       spriteID: 25950e395b981eb20800000000000000
       internalID: 3161959826353838418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileset_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d924a0ac75658f0800000000000000
+      internalID: -552157379039159011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileset_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd49cf2be35050b0800000000000000
+      internalID: -5741997255313240625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneTileset_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e804b7c3ae8ad7b20800000000000000
+      internalID: 3133846639710257294
       vertices: []
       indices: 
       edges: []
