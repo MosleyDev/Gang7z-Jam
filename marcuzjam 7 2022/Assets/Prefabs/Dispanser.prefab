@@ -141,7 +141,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dispenserDirection: 3
   _arrowPrefab: {fileID: 6972075047213281546, guid: 198c0aba1fb449647b4ae4a5f19baa5d, type: 3}
-  _arrowSpeed: 3
+  _arrowSpeed: 5
   _spawnDuration: 2
   _upSP: {fileID: 5286050258011715409}
   _rightSP: {fileID: 5286050256756232613}
