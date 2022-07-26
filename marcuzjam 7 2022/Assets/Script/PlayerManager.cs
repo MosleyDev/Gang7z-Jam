@@ -14,6 +14,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private Transform _startPoint;
 
     [SerializeField] private GameObject _deadBodyPrefab;
+    [SerializeField] private LayerMask _deadBodyLayer;
     [SerializeField] private Vector2 _dropOffset;
     [SerializeField] private float _grabRange;
     bool _isGrabbingBody;
@@ -27,7 +28,7 @@ public class PlayerManager : MonoBehaviour
             }
             else
             {
-                Collider2D col = Physics2D.OverlapCircle(transform.position, _grabRange, _deadBodyPrefab.layer);
+                Collider2D col = Physics2D.OverlapCircle(transform.position, _grabRange, _deadBodyLayer);
                 if (col != null)
                 {
                     GrabBody(col.gameObject);
@@ -55,7 +56,7 @@ public class PlayerManager : MonoBehaviour
         GetComponent<PlayerController>().isGrabbingBody = false;
         _isGrabbingBody = false;
 
-        Vector2 spawnPosition = transform.position + ((transform.right.x > 0 ? 1 : -1) * (Vector3)_dropOffset);
-        Instantiate(_deadBodyPrefab, spawnPosition, Quaternion.identity);
+        Vector3 spawnOffset = new Vector3(((transform.right.x > 0 ? 1 : -1) * _dropOffset.x), _dropOffset.y);
+        Instantiate(_deadBodyPrefab, transform.position + spawnOffset, Quaternion.identity);
     }
 }
