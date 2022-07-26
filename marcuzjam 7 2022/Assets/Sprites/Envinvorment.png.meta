@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -2082010119359809059
     second: Envinvorment_0
+  - first:
+      213: -904173851969179653
+    second: Envinvorment_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,7 +114,7 @@ TextureImporter:
         serializedVersion: 2
         x: 5
         y: 102
-        width: 25
+        width: 20
         height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -122,6 +125,27 @@ TextureImporter:
       bones: []
       spriteID: dd93ac0d3d63b13e0800000000000000
       internalID: -2082010119359809059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Envinvorment_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff2e221caab373f0800000000000000
+      internalID: -904173851969179653
       vertices: []
       indices: 
       edges: []
