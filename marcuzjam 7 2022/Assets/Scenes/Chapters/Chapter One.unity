@@ -1211,9 +1211,9 @@ MonoBehaviour:
   run: {fileID: 11400000, guid: 00c9514d7eab92649bd5d549e9125510, type: 2}
   idle: {fileID: 11400000, guid: 49da2d9771a945a448a2caaaabdc4b82, type: 2}
   runGrab_Up: {fileID: 11400000, guid: 3d218cf6907841648ad3e6df54391e4c, type: 2}
-  runGrab_RightAndLeft: {fileID: 0}
+  runGrab_RightAndLeft: {fileID: 11400000, guid: 34ce8c5bf72130b4ba8c96ae53e478ea, type: 2}
   idleGrab_Up: {fileID: 11400000, guid: 26ff2c40fa9f9404292711c225316d85, type: 2}
-  idleGrab_RightAndLeft: {fileID: 0}
+  idleGrab_RightAndLeft: {fileID: 11400000, guid: 6bc11846ccb736748a6aa5a6ccd6c560, type: 2}
   anim: {fileID: 788251456}
   body: {fileID: 788251452}
   speed: 3

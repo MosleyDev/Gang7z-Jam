@@ -30,6 +30,11 @@ public class PlayerController : MonoBehaviour
 
         isRun = Mathf.Abs(inputRaw) > 0 ? true : false;
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            isGrabbingUp = !isGrabbingUp;
+        }
+
         if (Mathf.Abs(inputRaw) > 0)
         {
 
