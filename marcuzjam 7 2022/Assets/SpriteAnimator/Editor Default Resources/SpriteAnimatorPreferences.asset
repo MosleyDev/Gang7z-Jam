@@ -1,0 +1,1437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1755032a033d90e44a52ae1cf43ba0cc, type: 3}
+  m_Name: SpriteAnimatorPreferences
+  m_EditorClassIdentifier: 
+  selectedComponent: []
+  searchList:
+  - level: 0
+    content:
+      m_Text: Choose Component
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PreasurePlate
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayerController
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayerLavaChecker
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AnimationManager
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteLibrary
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteResolver
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteSkin
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteSkinEntity
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteSkinUpdateHelper
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CCDSolver2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: FabrikSolver2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: IKManager2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LimbSolver2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Solver2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CinemachinePixelPerfect
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PixelPerfectCamera
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteShapeGeometryCache
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteShapeController
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_Dropdown
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_InputField
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_ScrollbarEventHandler
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_SelectionCaret
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_SpriteAnimator
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_SubMesh
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_SubMeshUI
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TMP_Text
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TextMeshPro
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TextMeshProUGUI
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TextContainer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: DropdownItem
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SignalReceiver
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlaymodeTestsController
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayModeRunnerCallback
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayerQuitHandler
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RemoteTestResultSender
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TestResultRendererCallback
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Button
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Dropdown
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Graphic
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: GraphicRaycaster
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Image
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: InputField
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AspectRatioFitter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CanvasScaler
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ContentSizeFitter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: GridLayoutGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: HorizontalLayoutGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: HorizontalOrVerticalLayoutGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LayoutElement
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LayoutGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: VerticalLayoutGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Mask
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: MaskableGraphic
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RawImage
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RectMask2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ScrollRect
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Scrollbar
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Selectable
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Slider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Text
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Toggle
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ToggleGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BaseMeshEffect
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Outline
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PositionAsUV1
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Shadow
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: EventSystem
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: EventTrigger
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BaseInput
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BaseInputModule
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PointerInputModule
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: StandaloneInputModule
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TouchInputModule
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BaseRaycaster
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Physics2DRaycaster
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PhysicsRaycaster
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: UIBehaviour
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: DropdownItem
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: NavMeshAgent
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: NavMeshObstacle
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: OffMeshLink
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Animator
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Animation
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AimConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PositionConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RotationConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ScaleConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LookAtConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ParentConstraint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioSource
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioLowPassFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioHighPassFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioReverbFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioBehaviour
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioListener
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioReverbZone
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioDistortionFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioEchoFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AudioChorusFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Cloth
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Camera
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: FlareLayer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ReflectionProbe
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BillboardRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Renderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Projector
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TrailRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LineRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: OcclusionPortal
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: OcclusionArea
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LensFlare
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Light
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Skybox
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: MeshFilter
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Halo
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LightProbeProxyVolume
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SkinnedMeshRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: MeshRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LightProbeGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: LODGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: NetworkView
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Behaviour
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: MonoBehaviour
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RectTransform
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Transform
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SortingGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayableDirector
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Grid
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: GridLayout
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ParticleSystem
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ParticleSystemRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ParticleSystemForceField
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Rigidbody2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Collider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CircleCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CapsuleCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: EdgeCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BoxCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PolygonCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CompositeCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Joint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AnchoredJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpringJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: DistanceJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: FrictionJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: HingeJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: RelativeJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SliderJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TargetJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: FixedJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: WheelJoint2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Effector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: AreaEffector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BuoyancyEffector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PointEffector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlatformEffector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SurfaceEffector2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PhysicsUpdateBehaviour2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ConstantForce2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Rigidbody
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Collider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CharacterController
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: MeshCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CapsuleCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: BoxCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SphereCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ConstantForce
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Joint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: HingeJoint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpringJoint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: FixedJoint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CharacterJoint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ConfigurableJoint
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ArticulationBody
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteMask
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpriteShapeRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: StreamingController
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Terrain
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Tree
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TerrainCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TextMesh
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Tilemap
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TilemapRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: TilemapCollider2D
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CanvasGroup
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: CanvasRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Canvas
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: NetworkMatch
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: WheelCollider
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: VisualEffect
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: VFXRenderer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: VideoPlayer
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: WindZone
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  packageDlls:
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Assembly-CSharp.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\PsdPlugin.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Path.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.CollabProxy.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Rider.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Services.Core.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VisualStudio.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VSCode.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.TestRunner.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.UI.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.TestRunner.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.UI.dll
+  generalDlls:
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\Unity.Cecil.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\Unity.Cecil.Mdb.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\Unity.Cecil.Pdb.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.CoreModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.GraphViewModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.PackageManagerUIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.SceneTemplateModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.UIElementsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.UIElementsSamplesModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.UIServiceModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEditor.UnityConnectModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AccessibilityModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AndroidJNIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AnimationModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ARModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AssetBundleModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.AudioModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ClothModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ClusterInputModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ClusterRendererModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.CoreModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.CrashReportingModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.DirectorModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.DSPGraphModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.GameCenterModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.GIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.GridModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.HotReloadModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ImageConversionModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.IMGUIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.InputLegacyModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.InputModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.JSONSerializeModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.LocalizationModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ParticleSystemModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.PerformanceReportingModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.Physics2DModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.PhysicsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ProfilerModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.ScreenCaptureModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.SharedInternalsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.SpriteMaskModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.SpriteShapeModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.StreamingModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.SubstanceModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.SubsystemsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TerrainModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TerrainPhysicsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TextCoreModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TextRenderingModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TilemapModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.TLSModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UIElementsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UIElementsNativeModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UIModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UmbraModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UNETModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityAnalyticsModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityConnectModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityCurlModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityTestProtocolModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityWebRequestModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.VehiclesModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.VFXModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.VideoModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.VirtualTexturingModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.VRModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.WindModule.dll
+  - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\UnityEngine.XRModule.dll
+  groups:
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    boxType: sdfdsf
+    activeLayer: 0
+    physicMaterial: {fileID: 0}
+    rounded: 0
+    groupID: 155085562
+  - color: {r: 0.37753648, g: 0.7924528, b: 0.3981156, a: 1}
+    boxType: asdasd
+    activeLayer: 7
+    physicMaterial: {fileID: 0}
+    rounded: 0
+    groupID: 752913415
+  - color: {r: 0.15294115, g: 0.3227967, b: 0.6901961, a: 1}
+    boxType: aaa
+    activeLayer: 0
+    physicMaterial: {fileID: 0}
+    rounded: 0
+    groupID: 759466851
+  hitboxProperties:
+  - name: Hit
+    componentType:
+      m_Name: CinemachineDollyCart
+      m_AssemblyQualifiedName: Cinemachine.CinemachineDollyCart, Cinemachine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_AssemblyName: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dataType:
+      m_Name: Boolean
+      m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    dataName: enabled
+    componentWay: 0
+    propID: 174418457
+  - name: sdfsdfsdf
+    componentType:
+      m_Name: CinemachineBlendListCamera
+      m_AssemblyQualifiedName: Cinemachine.CinemachineBlendListCamera, Cinemachine,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_AssemblyName: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dataType:
+      m_Name: Boolean
+      m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    dataName: useGUILayout
+    componentWay: 0
+    propID: 166036254
+  - name: dsfdsf
+    componentType:
+      m_Name: Rigidbody2D
+      m_AssemblyQualifiedName: UnityEngine.Rigidbody2D, UnityEngine.Physics2DModule,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    dataType:
+      m_Name: Vector2
+      m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    dataName: position
+    componentWay: 0
+    propID: 277137203
+  hitboxPropertyDatas:
+  - selectedComponent:
+      level: 1
+      content:
+        m_Text: CinemachineDollyCart
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    propertyInfo:
+      propertyName:
+      - useGUILayout
+      - runInEditMode
+      - enabled
+      - tag
+      - name
+      - hideFlags
+      propertyType:
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: HideFlags
+        m_AssemblyQualifiedName: UnityEngine.HideFlags, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+  - selectedComponent:
+      level: 1
+      content:
+        m_Text: CinemachineBlendListCamera
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    propertyInfo:
+      propertyName:
+      - LiveChild
+      - LookAt
+      - Follow
+      - Priority
+      - PreviousStateIsValid
+      - useGUILayout
+      - runInEditMode
+      - enabled
+      - tag
+      - name
+      - hideFlags
+      propertyType:
+      - m_Name: ICinemachineCamera
+        m_AssemblyQualifiedName: Cinemachine.ICinemachineCamera, Cinemachine, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      - m_Name: Transform
+        m_AssemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Transform
+        m_AssemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Int32
+        m_AssemblyQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: HideFlags
+        m_AssemblyQualifiedName: UnityEngine.HideFlags, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+  - selectedComponent:
+      level: 1
+      content:
+        m_Text: Rigidbody2D
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    propertyInfo:
+      propertyName:
+      - position
+      - rotation
+      - velocity
+      - angularVelocity
+      - useAutoMass
+      - mass
+      - sharedMaterial
+      - centerOfMass
+      - inertia
+      - drag
+      - angularDrag
+      - gravityScale
+      - bodyType
+      - useFullKinematicContacts
+      - isKinematic
+      - fixedAngle
+      - freezeRotation
+      - constraints
+      - simulated
+      - interpolation
+      - sleepMode
+      - collisionDetectionMode
+      - tag
+      - name
+      - hideFlags
+      propertyType:
+      - m_Name: Vector2
+        m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Vector2
+        m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: PhysicsMaterial2D
+        m_AssemblyQualifiedName: UnityEngine.PhysicsMaterial2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Vector2
+        m_AssemblyQualifiedName: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Single
+        m_AssemblyQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: RigidbodyType2D
+        m_AssemblyQualifiedName: UnityEngine.RigidbodyType2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: RigidbodyConstraints2D
+        m_AssemblyQualifiedName: UnityEngine.RigidbodyConstraints2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: Boolean
+        m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: RigidbodyInterpolation2D
+        m_AssemblyQualifiedName: UnityEngine.RigidbodyInterpolation2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: RigidbodySleepMode2D
+        m_AssemblyQualifiedName: UnityEngine.RigidbodySleepMode2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: CollisionDetectionMode2D
+        m_AssemblyQualifiedName: UnityEngine.CollisionDetectionMode2D, UnityEngine.Physics2DModule,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: String
+        m_AssemblyQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+        m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      - m_Name: HideFlags
+        m_AssemblyQualifiedName: UnityEngine.HideFlags, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_AssemblyName: UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+  spriteProperties: []
+  spritePropertyDatas: []
+  componentContent: []
+  framePropContent: []
+  hitboxPropContent:
+  - m_Text: enabled  \  Boolean
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  - m_Text: useGUILayout  \  Boolean
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  - m_Text: position  \  Vector2
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  activeFramePropIndex: 0
+  activeHitboxPropIndex: 2
+  activeProperty: 1
