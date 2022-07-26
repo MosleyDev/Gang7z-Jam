@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 788251456}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 1034444468}
   - component: {fileID: 1034444467}
   - component: {fileID: 1034444466}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lava
   m_TagString: Lava
   m_Icon: {fileID: 0}
