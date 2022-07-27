@@ -31,7 +31,10 @@ public class PlayerManager : MonoBehaviour
                 Collider2D col = Physics2D.OverlapCircle(transform.position, _grabRange, _deadBodyLayer);
                 if (col != null)
                 {
-                    GrabBody(col.gameObject);
+                    if (col.GetComponent<DeadBody>().isOnLava == false)
+                    {
+                        GrabBody(col.gameObject);
+                    }
                 }
             }
         }
