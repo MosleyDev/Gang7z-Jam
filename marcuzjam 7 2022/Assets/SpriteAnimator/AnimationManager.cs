@@ -73,8 +73,9 @@ namespace PixelAnimator{
 
             if(layers.Count > 0){
                 for(int i = 0; i < layers.Count; i++){
-                    bool alreadyExist = false;
-                    alreadyExist = gameObjects.Any(x => x.name == layers[i].group.boxType);
+
+                    bool alreadyExist = gameObjects.Any(x => x.name == layers[i].group.boxType);
+                    Debug.Log(alreadyExist);
                     if(!alreadyExist){
                         gameObjects.Add(new GameObject(layers[i].group.boxType));
                         int index = gameObjects.Count -1;
@@ -93,30 +94,32 @@ namespace PixelAnimator{
                     Layer animation = layers.FirstOrDefault(x => x.group.boxType == gameObjects[i].name);
                     if(animation == null)
                         gameObjects.RemoveAt(i);
-                    var boxCol = gameObjects[i].GetComponent<BoxCollider2D>();
-                    switch (animation.frames[activeFrame].colissionTypes){
+                    
+                    if(animation != null){
+                        var boxCol = gameObjects[i].GetComponent<BoxCollider2D>();
+                        switch (animation.frames[activeFrame].colissionTypes){
 
-                        case Frame.ColissionTypes.NoTrigger :
-                            boxCol.isTrigger = false;
-                        break;
+                            case Frame.ColissionTypes.NoTrigger :
+                                boxCol.isTrigger = false;
+                            break;
 
-                        default:
-                            boxCol.isTrigger = true;
-                        break;
+                            default:
+                                boxCol.isTrigger = true;
+                            break;
 
+                        }
+                        
+                        var size = animation.frames[activeFrame].hitboxRect.size;
+                        var offset = animation.frames[activeFrame].hitboxRect.position;
+                        var adjustedHitboxOffset = new Vector2(offset.x + size.x/2, size.y/2 + offset.y );
+
+                        var adjustedXSize = (size.x * sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
+                        var adjustedXOffset = ((adjustedHitboxOffset.x - sprites[activeFrame].rect.width/2)*sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
+                        var adjustedYOffset = (((adjustedHitboxOffset.y - sprites[activeFrame].rect.height/2)*-1)*sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height;
+                        boxCol.size = new Vector2(adjustedXSize, (size.y * sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height );
+
+                        boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
                     }
-                    
-                    var size = animation.frames[activeFrame].hitboxRect.size;
-                    var offset = animation.frames[activeFrame].hitboxRect.position;
-                    var adjustedHitboxOffset = new Vector2(offset.x + size.x/2, size.y/2 + offset.y );
-
-                    var adjustedXSize = (size.x * sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
-                    var adjustedXOffset = ((adjustedHitboxOffset.x - sprites[activeFrame].rect.width/2)*sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
-                    var adjustedYOffset = (((adjustedHitboxOffset.y - sprites[activeFrame].rect.height/2)*-1)*sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height;
-                    boxCol.size = new Vector2(adjustedXSize, (size.y * sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height );
-
-                    boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
-                    
                     // var frame = layers[i].frames[activeFrame];
                     // for(int x = 0; x < currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203).Count; x++){
                     //     var data = currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].data;
