@@ -28,12 +28,13 @@ public class PlayerManager : MonoBehaviour
             }
             else
             {
-                Collider2D col = Physics2D.OverlapCircle(transform.position, _grabRange, _deadBodyLayer);
-                if (col != null)
+                Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, _grabRange, _deadBodyLayer);
+                for (int i = 0; i < cols.Length; i++)
                 {
-                    if (col.GetComponent<DeadBody>().isOnLava == false)
+                    if (cols[i].GetComponent<DeadBody>().isOnLava == false)
                     {
-                        GrabBody(col.gameObject);
+                        GrabBody(cols[i].gameObject);
+                        break;
                     }
                 }
             }
@@ -41,6 +42,9 @@ public class PlayerManager : MonoBehaviour
     }
     public void Kill()
     {
+        if (_isGrabbingBody)
+            DropBody();
+
         Vector2 deathPosisiton = transform.position;
         Instantiate(_deadBodyPrefab, deathPosisiton, Quaternion.identity);
 
