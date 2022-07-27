@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layer:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 1663
   _speed: 3
   _rayDistance: 1
 --- !u!50 &1800916408555033296
@@ -136,6 +136,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.23}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1

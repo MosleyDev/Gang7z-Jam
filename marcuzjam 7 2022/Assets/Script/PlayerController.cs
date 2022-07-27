@@ -30,12 +30,6 @@ public class PlayerController : MonoBehaviour
     public bool isGrabbingUp = true;
 
 
-
-    private void Start() {
-        anim.ChangeState(idle);
-    }
-
-
     private void Update()
     {
         inputRaw = Input.GetAxisRaw("Horizontal");
@@ -48,7 +42,8 @@ public class PlayerController : MonoBehaviour
             isGrabbingUp = !isGrabbingUp;
         }
 
-        if(groundCheck){
+        if (groundCheck)
+        {
 
             if (Mathf.Abs(inputRaw) > 0)
             {
@@ -62,28 +57,31 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-        if(groundCheck && !isGrabbingBody){
+        if (groundCheck && !isGrabbingBody)
+        {
 
-            if(Input.GetKeyDown(KeyCode.Space)){
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
                 body.velocity = new Vector2(body.velocity.x, jumpForce);
             }
         }
 
-        if(!groundCheck){
-            if(Mathf.Sign(body.velocity.y) >= 0)
+        if (!groundCheck)
+        {
+            if (Mathf.Sign(body.velocity.y) >= 0)
                 anim.ChangeState(jump);
-            else if(Mathf.Sign(body.velocity.y) < 0)
+            else if (Mathf.Sign(body.velocity.y) < 0)
                 anim.ChangeState(jump_To_Fall);
         }
 
-    
+
         if (inputRaw < 0)
             this.transform.rotation = Quaternion.Euler(0, 180, 0);
         else if (inputRaw > 0)
             this.transform.rotation = Quaternion.Euler(0, 0, 0);
-    
 
-    
+
+
     }
 
 
@@ -96,7 +94,8 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void OnDrawGizmos() {
+    private void OnDrawGizmos()
+    {
         Gizmos.color = Color.blue;
 
         Gizmos.DrawWireCube(groundTransform.position, groundTransform.localScale);
