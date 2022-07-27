@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: e688c7ece8e5b8a40a8f01c0c9e57b49
+guid: 16bf87249013f544dbae07440e47ca07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1844688687736985893
-    second: spining blade_0
+      213: -4060925728806099232
+    second: settingsBttn_0
   - first:
-      213: 7302304010212946536
-    second: spining blade_1
-  - first:
-      213: 2531723795006003848
-    second: spining blade_2
-  - first:
-      213: 5320530094894918612
-    second: spining blade_3
-  - first:
-      213: -7750384619257279944
-    second: spining blade_4
+      213: 8694219971297713370
+    second: settingsBttn_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,9 +50,9 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5, y: 0.561}
-  spritePixelsToUnits: 16
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,106 +109,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spining blade_0
+      name: settingsBttn_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5299eb18696a99910800000000000000
-      internalID: 1844688687736985893
+      spriteID: 0e6a44bb091b4a7c0800000000000000
+      internalID: -4060925728806099232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spining blade_1
+      name: settingsBttn_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 36
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86237aadecef65560800000000000000
-      internalID: 7302304010212946536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spining blade_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88a9cbeb06d722320800000000000000
-      internalID: 2531723795006003848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spining blade_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dbacf29ee156d940800000000000000
-      internalID: 5320530094894918612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spining blade_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83ac488804a117490800000000000000
-      internalID: -7750384619257279944
+      spriteID: adc9e4cfff218a870800000000000000
+      internalID: 8694219971297713370
       vertices: []
       indices: 
       edges: []

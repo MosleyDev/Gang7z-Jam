@@ -23,7 +23,7 @@ namespace PixelAnimator{
         private float frameRate;
         private Action action;
 
-        [SerializeField]private List<GameObject> gameObjects;
+        private List<GameObject> gameObjects;
 
 
         

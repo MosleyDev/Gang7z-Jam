@@ -2206,6 +2206,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpinnigKnive
       objectReference: {fileID: 0}
+    - target: {fileID: 1800916408555033302, guid: 4067a3d35c5370144a5599508b71c585, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1844688687736985893, guid: e688c7ece8e5b8a40a8f01c0c9e57b49, type: 3}
+    - target: {fileID: 1800916408555033302, guid: 4067a3d35c5370144a5599508b71c585, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1800916408555033303, guid: 4067a3d35c5370144a5599508b71c585, type: 3}
       propertyPath: _speed
       value: 5
