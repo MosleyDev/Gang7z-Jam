@@ -35,6 +35,7 @@ namespace PixelAnimator{
             layers = new List<Layer>();
             gameObjects = new List<GameObject>();
             ApplyProperties();
+
             
         }
 
@@ -138,11 +139,13 @@ namespace PixelAnimator{
         public void ChangeState(SpriteAnimation newState){
             if(currentAnimation != newState){
                 currentAnimation = newState;
-                activeFrame = 0;
                 layers = newState.layers;
                 loop = newState.loop;
                 frameRate = newState.frameRate;
                 sprites = newState.sprites;
+                activeFrame = 0;
+                spriteRenderer.sprite = sprites[activeFrame];
+                timer = 0;
             }
     
         }

@@ -17,4 +17,75 @@ MonoBehaviour:
   sprites:
   - {fileID: 8550187321500119558, guid: 8e944b37f1ffbde458c96e17283d5cff, type: 3}
   - {fileID: 7853305855667227347, guid: 8e944b37f1ffbde458c96e17283d5cff, type: 3}
-  layers: []
+  layers:
+  - group:
+      color: {r: 0.37753648, g: 0.7924528, b: 0.3981156, a: 1}
+      boxType: asdasd
+      activeLayer: 7
+      physicMaterial: {fileID: 6200000, guid: 6ed6d5632b7ea6c4480c2db6b3ec6e46, type: 2}
+      rounded: 0
+      groupID: 752913415
+    frames:
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 9
+        height: 24
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 0
+      hitboxRect:
+        serializedVersion: 2
+        x: 13
+        y: 9
+        width: 8
+        height: 22
+    reSizeBox: 1
+    onHandleTopleft: 0
+    onHandleTopCenter: 0
+    onHandleTopRight: 0
+    onHandleRightCenter: 0
+    onHandleBottomRight: 0
+    onHandleBottomCenter: 0
+    onHandleBottomLeft: 0
+    onHandleLeftCenter: 0

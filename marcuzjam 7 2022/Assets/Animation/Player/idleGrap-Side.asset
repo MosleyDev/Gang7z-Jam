@@ -26,7 +26,7 @@ MonoBehaviour:
       color: {r: 0.37753648, g: 0.7924528, b: 0.3981156, a: 1}
       boxType: asdasd
       activeLayer: 7
-      physicMaterial: {fileID: 0}
+      physicMaterial: {fileID: 6200000, guid: 6ed6d5632b7ea6c4480c2db6b3ec6e46, type: 2}
       rounded: 0
       groupID: 752913415
     frames:
