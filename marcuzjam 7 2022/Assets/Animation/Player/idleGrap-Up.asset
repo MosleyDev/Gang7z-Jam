@@ -133,7 +133,7 @@ MonoBehaviour:
       colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
-        x: 11
+        x: 12
         y: 5
         width: 11
         height: 26
@@ -164,6 +164,158 @@ MonoBehaviour:
         y: 6
         width: 10
         height: 25
+    reSizeBox: 0
+    onHandleTopleft: 0
+    onHandleTopCenter: 0
+    onHandleTopRight: 0
+    onHandleRightCenter: 0
+    onHandleBottomRight: 0
+    onHandleBottomCenter: 0
+    onHandleBottomLeft: 0
+    onHandleLeftCenter: 0
+  - group:
+      color: {r: 0.15294115, g: 0.3227967, b: 0.6901961, a: 1}
+      boxType: aaa
+      activeLayer: 8
+      physicMaterial: {fileID: 0}
+      rounded: 0
+      groupID: 759466851
+    frames:
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 1
+      hitboxRect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 18
+        height: 8
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 1
+      hitboxRect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 18
+        height: 8
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 1
+      hitboxRect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 18
+        height: 8
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 1
+      hitboxRect:
+        serializedVersion: 2
+        x: 9
+        y: 1
+        width: 18
+        height: 6
+    - hitboxData:
+        intProps: []
+        stringProps: []
+        boolProps: []
+        floatProps: []
+        doubleProps: []
+        longProps: []
+        rectProps: []
+        rectIntProps: []
+        colorProps: []
+        animationCurveProps: []
+        boundsProps: []
+        boundsIntProps: []
+        vector2Props: []
+        vector3Props: []
+        vector4Props: []
+        vector2IntProps: []
+        vector3IntProps: []
+        unityObjectProps: []
+        gradientProps: []
+      colissionTypes: 1
+      hitboxRect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 19
+        height: 7
     reSizeBox: 1
     onHandleTopleft: 0
     onHandleTopCenter: 0

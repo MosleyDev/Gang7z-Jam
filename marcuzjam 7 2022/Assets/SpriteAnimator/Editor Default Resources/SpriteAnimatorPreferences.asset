@@ -21,7 +21,27 @@ MonoBehaviour:
       m_Tooltip: 
   - level: 1
     content:
+      m_Text: Lava
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Arrow
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
       m_Text: PreasurePlate
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: DeadBody
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: Dispenser
       m_Image: {fileID: 0}
       m_Tooltip: 
   - level: 1
@@ -31,7 +51,22 @@ MonoBehaviour:
       m_Tooltip: 
   - level: 1
     content:
-      m_Text: PlayerLavaChecker
+      m_Text: PlayerManager
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: PlayerTriggerChecker
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: SpinningKnive
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  - level: 1
+    content:
+      m_Text: ClickyButton
       m_Image: {fileID: 0}
       m_Tooltip: 
   - level: 1
@@ -990,41 +1025,42 @@ MonoBehaviour:
       m_Image: {fileID: 0}
       m_Tooltip: 
   packageDlls:
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Assembly-CSharp.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\PsdPlugin.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Runtime.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Runtime.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Path.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.CollabProxy.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Rider.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Services.Core.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VisualStudio.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VSCode.Editor.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.TestRunner.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.UI.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.TestRunner.dll
-  - C:\Users\Msalih\Desktop\Unity denemeler\marcuzjam-07-2022\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.UI.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Assembly-CSharp-firstpass.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Assembly-CSharp.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\PsdPlugin.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Common.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.IK.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Path.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.CollabProxy.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Mathematics.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Rider.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Services.Core.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.Timeline.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VisualStudio.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\Unity.VSCode.Editor.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.TestRunner.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEditor.UI.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.TestRunner.dll
+  - C:\Users\Msalih\Desktop\Unity denemeler\Gang7z-Jam\marcuzjam 7 2022/Library/ScriptAssemblies\UnityEngine.UI.dll
   generalDlls:
   - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\Unity.Cecil.dll
   - C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed/UnityEngine\Unity.Cecil.Mdb.dll
@@ -1118,7 +1154,7 @@ MonoBehaviour:
     groupID: 752913415
   - color: {r: 0.15294115, g: 0.3227967, b: 0.6901961, a: 1}
     boxType: aaa
-    activeLayer: 0
+    activeLayer: 8
     physicMaterial: {fileID: 0}
     rounded: 0
     groupID: 759466851

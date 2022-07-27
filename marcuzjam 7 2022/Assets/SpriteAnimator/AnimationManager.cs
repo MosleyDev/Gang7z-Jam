@@ -149,6 +149,13 @@ namespace PixelAnimator{
             }
     
         }
+        public void ChangeState(SpriteAnimation newState, Action action){
+            if(currentAnimation != newState){
+                ChangeState(newState);
+                this.action = action;
+            }
+    
+        }
 
 
 
