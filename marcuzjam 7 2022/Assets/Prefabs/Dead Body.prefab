@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822321a856838864fa3e53f471980ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOnLava: 0
 --- !u!50 &4955877825355593734
 Rigidbody2D:
   serializedVersion: 4
@@ -158,6 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 822321a856838864fa3e53f471980ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOnLava: 0
 --- !u!231 &847537752994455213
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -165,7 +167,7 @@ SpringJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8480789272390633959}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
@@ -175,6 +177,6 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -0.7554749, y: -4.180914}
   m_AutoConfigureDistance: 1
-  m_Distance: 0.31913304
+  m_Distance: 0.7309344
   m_DampingRatio: 0
   m_Frequency: 2

@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8480789272390633957, guid: a183d0a04853443498086ea390e30d4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -3.45
       objectReference: {fileID: 0}
     - target: {fileID: 8480789272390633957, guid: a183d0a04853443498086ea390e30d4b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   groundTransform: {fileID: 1389648917}
   body: {fileID: 788251452}
   speed: 3
-  jumpForce: 3
+  jumpForce: 3.7
   isGrabbingBody: 0
   isGrabbingUp: 1
 --- !u!114 &788251456

@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class DeadBody : MonoBehaviour
 {
+    public bool isOnLava;
+
+    Rigidbody2D rb;
+    SpringJoint2D sj;
     private void Start()
     {
-        GetComponent<SpringJoint2D>().enabled = false;
+        rb = GetComponent<Rigidbody2D>();
+        sj = GetComponent<SpringJoint2D>();
+
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Lava"))
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            isOnLava = true;
 
-            GetComponent<SpringJoint2D>().enabled = true;
-            GetComponent<SpringJoint2D>().connectedAnchor = new Vector2(this.transform.position.x, this.transform.position.y + 0.5f);
+            rb.velocity = Vector2.zero;
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+
+            sj.enabled = true;
+            sj.connectedAnchor = new Vector2(this.transform.position.x, this.transform.position.y + 0.5f);
         }
     }
 }
