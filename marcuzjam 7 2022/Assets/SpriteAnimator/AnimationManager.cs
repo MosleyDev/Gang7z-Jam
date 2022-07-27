@@ -23,7 +23,7 @@ namespace PixelAnimator{
         private float frameRate;
         private Action action;
 
-        private List<GameObject> gameObjects;
+        [SerializeField]private List<GameObject> gameObjects;
 
 
         
@@ -33,7 +33,7 @@ namespace PixelAnimator{
             spriteRenderer = GetComponent<SpriteRenderer>();
             sprites = new List<Sprite>();
             layers = new List<Layer>();
-            gameObjects = new List<GameObject>();
+            if(gameObjects == null )gameObjects = new List<GameObject>();
             ApplyProperties();
 
             
@@ -55,7 +55,6 @@ namespace PixelAnimator{
                 activeFrame = (activeFrame + 1) % sprites.Count;
                 if(!loop){
                     if(spriteRenderer.sprite == sprites[sprites.Count-1]){
-                        Debug.Log("sadasd");
                         if(action != null)action();
                     }else{
                         spriteRenderer.sprite = sprites[activeFrame];
@@ -75,7 +74,7 @@ namespace PixelAnimator{
                 for(int i = 0; i < layers.Count; i++){
 
                     bool alreadyExist = gameObjects.Any(x => x.name == layers[i].group.boxType);
-                    Debug.Log(alreadyExist);
+                    
                     if(!alreadyExist){
                         gameObjects.Add(new GameObject(layers[i].group.boxType));
                         int index = gameObjects.Count -1;
@@ -85,41 +84,52 @@ namespace PixelAnimator{
                         gameObjects[index].GetComponent<BoxCollider2D>().sharedMaterial = layers[i].group.physicMaterial;
                         gameObjects[index].transform.localPosition = Vector3.zero;
                     }
+
+
                     
                 }
 
                 for(int i = 0; i < gameObjects.Count; i ++){
+                    var obj = gameObjects[i];
+                    var checkSameLayer = layers.FirstOrDefault(x => x.group.boxType == obj.name);
                     
-                    
-                    Layer animation = layers.FirstOrDefault(x => x.group.boxType == gameObjects[i].name);
-                    if(animation == null)
-                        gameObjects.RemoveAt(i);
-                    
-                    if(animation != null){
-                        var boxCol = gameObjects[i].GetComponent<BoxCollider2D>();
-                        switch (animation.frames[activeFrame].colissionTypes){
+                    if(checkSameLayer == null){
+                        gameObjects.Remove(obj);
+                        Destroy(this.transform.Find(obj.name).gameObject);
 
-                            case Frame.ColissionTypes.NoTrigger :
-                                boxCol.isTrigger = false;
-                            break;
-
-                            default:
-                                boxCol.isTrigger = true;
-                            break;
-
-                        }
-                        
-                        var size = animation.frames[activeFrame].hitboxRect.size;
-                        var offset = animation.frames[activeFrame].hitboxRect.position;
-                        var adjustedHitboxOffset = new Vector2(offset.x + size.x/2, size.y/2 + offset.y );
-
-                        var adjustedXSize = (size.x * sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
-                        var adjustedXOffset = ((adjustedHitboxOffset.x - sprites[activeFrame].rect.width/2)*sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
-                        var adjustedYOffset = (((adjustedHitboxOffset.y - sprites[activeFrame].rect.height/2)*-1)*sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height;
-                        boxCol.size = new Vector2(adjustedXSize, (size.y * sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height );
-
-                        boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
                     }
+
+                    if( i < gameObjects.Count){
+
+                        Layer animation = layers.FirstOrDefault(x => x.group.boxType == gameObjects[i].name);
+
+
+                        if(animation != null){
+                            var boxCol = gameObjects[i].GetComponent<BoxCollider2D>();
+                            switch (animation.frames[activeFrame].colissionTypes){
+
+                                case Frame.ColissionTypes.NoTrigger :
+                                    boxCol.isTrigger = false;
+                                break;
+
+                                default:
+                                    boxCol.isTrigger = true;
+                                break;
+
+                            }
+                            
+                            var size = animation.frames[activeFrame].hitboxRect.size;
+                            var offset = animation.frames[activeFrame].hitboxRect.position;
+                            var adjustedHitboxOffset = new Vector2(offset.x + size.x/2, size.y/2 + offset.y );
+
+                            var adjustedXSize = (size.x * sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
+                            var adjustedXOffset = ((adjustedHitboxOffset.x - sprites[activeFrame].rect.width/2)*sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
+                            var adjustedYOffset = (((adjustedHitboxOffset.y - sprites[activeFrame].rect.height/2)*-1)*sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height;
+                            boxCol.size = new Vector2(adjustedXSize, (size.y * sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height );
+
+                            boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
+                        }
+                    }                    
                     // var frame = layers[i].frames[activeFrame];
                     // for(int x = 0; x < currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203).Count; x++){
                     //     var data = currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].data;
