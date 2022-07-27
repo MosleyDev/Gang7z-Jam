@@ -54,7 +54,7 @@ namespace PixelAnimator{
                 activeFrame = (activeFrame + 1) % sprites.Count;
                 if(!loop){
                     if(spriteRenderer.sprite == sprites[sprites.Count-1]){
-                        spriteRenderer.sprite = sprites[sprites.Count-1];
+                        Debug.Log("sadasd");
                         if(action != null)action();
                     }else{
                         spriteRenderer.sprite = sprites[activeFrame];
@@ -115,17 +115,17 @@ namespace PixelAnimator{
 
                     boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
                     
-                    var frame = layers[i].frames[activeFrame];
-                    for(int x = 0; x < currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203).Count; x++){
-                        var data = currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].data;
-                        var prop = preferences.hitboxProperties.FirstOrDefault(x => x.propID == 277137203);
+                    // var frame = layers[i].frames[activeFrame];
+                    // for(int x = 0; x < currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203).Count; x++){
+                    //     var data = currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].data;
+                    //     var prop = preferences.hitboxProperties.FirstOrDefault(x => x.propID == 277137203);
                     
-                        var component = (Rigidbody2D)GetComponent(prop.componentType.SystemType);
-                        if(activeFrame == currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].frameIndex){
+                    //     var component = (Rigidbody2D)GetComponent(prop.componentType.SystemType);
+                    //     if(activeFrame == currentAnimation.GetListOfProperties<Vector2>(layers[i].group.boxType, 277137203)[x].frameIndex){
 
-                            component.velocity = data;
-                        }
-                    }
+                    //         component.velocity = data;
+                    //     }
+                    // }
                 
 
                 }

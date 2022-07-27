@@ -28,6 +28,14 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrabbingBody;
     public bool isGrabbingUp = true;
+
+
+
+    private void Start() {
+        anim.ChangeState(idle);
+    }
+
+
     private void Update()
     {
         inputRaw = Input.GetAxisRaw("Horizontal");
