@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerTriggerChecker : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
@@ -14,6 +14,10 @@ public class PlayerTriggerChecker : MonoBehaviour
         else if (other.CompareTag("Arrow"))
         {
             PlayerManager.Instance.Kill();
+        }
+        else if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
