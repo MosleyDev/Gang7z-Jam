@@ -90,8 +90,9 @@ namespace PixelAnimator{
                 for(int i = 0; i < gameObjects.Count; i ++){
                     
                     
-                    var animation = layers.Single(x => x.group.boxType == gameObjects[i].name);
-
+                    Layer animation = layers.FirstOrDefault(x => x.group.boxType == gameObjects[i].name);
+                    if(animation == null)
+                        gameObjects.RemoveAt(i);
                     var boxCol = gameObjects[i].GetComponent<BoxCollider2D>();
                     switch (animation.frames[activeFrame].colissionTypes){
 
