@@ -34,6 +34,7 @@ namespace PixelAnimator{
             sprites = new List<Sprite>();
             layers = new List<Layer>();
             gameObjects = new List<GameObject>();
+            ApplyProperties();
             
         }
 
@@ -52,8 +53,13 @@ namespace PixelAnimator{
                 timer -= 1f;
                 activeFrame = (activeFrame + 1) % sprites.Count;
                 if(!loop){
-                    spriteRenderer.sprite = sprites[activeFrame];
-                    
+                    if(spriteRenderer.sprite == sprites[sprites.Count-1]){
+                        spriteRenderer.sprite = sprites[sprites.Count-1];
+                        if(action != null)action();
+                    }else{
+                        spriteRenderer.sprite = sprites[activeFrame];
+                    }
+                        
                 }else if(loop){
                     spriteRenderer.sprite = sprites[activeFrame];        
 
