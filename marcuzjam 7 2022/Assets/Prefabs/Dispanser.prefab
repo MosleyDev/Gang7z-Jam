@@ -161,7 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dispenserDirection: 3
   _arrowPrefab: {fileID: 6972075047213281546, guid: 198c0aba1fb449647b4ae4a5f19baa5d, type: 3}
-  _arrowSpeed: 5
+  _arrowSpeed: 15
   _spawnDuration: 2
   _upSP: {fileID: 5286050258011715409}
   _rightSP: {fileID: 5286050256756232613}

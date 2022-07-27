@@ -40,7 +40,16 @@ public class Dispenser : MonoBehaviour
             _ => _upSP.position
         };
 
-        GameObject newArrow = Instantiate(_arrowPrefab, spawnPosition, Quaternion.AngleAxis(0, spawnDirection));
+        Quaternion spawnRotation = _dispenserDirection switch
+        {
+            DispenserDirection.up => Quaternion.Euler(0, 0, 270),
+            DispenserDirection.right => Quaternion.Euler(0, 180, 0),
+            DispenserDirection.down => Quaternion.Euler(0, 0, 90),
+            DispenserDirection.left => Quaternion.Euler(0, 0, 0),
+            _ => Quaternion.Euler(0, 0, 270)
+        };
+
+        GameObject newArrow = Instantiate(_arrowPrefab, spawnPosition, spawnRotation);
 
         newArrow.GetComponent<Rigidbody2D>().velocity = spawnDirection * _arrowSpeed;
     }
