@@ -19,8 +19,9 @@ namespace PixelAnimator{
         private int activeFrame;
         private List<Layer> layers;
         private List<Sprite> sprites;
-        private bool loop;
+        [SerializeField]private bool loop;
         private float frameRate;
+        private Action action;
 
         private List<GameObject> gameObjects;
 
@@ -51,11 +52,11 @@ namespace PixelAnimator{
                 timer -= 1f;
                 activeFrame = (activeFrame + 1) % sprites.Count;
                 if(!loop){
-                    spriteRenderer.sprite = sprites[activeFrame];        
-                }else if(loop){
-                    if(spriteRenderer.sprite != sprites[sprites.Count-1]) 
-                        spriteRenderer.sprite = sprites[activeFrame];
+                    spriteRenderer.sprite = sprites[activeFrame];
                     
+                }else if(loop){
+                    spriteRenderer.sprite = sprites[activeFrame];        
+
                 }
             }
         }
@@ -133,6 +134,7 @@ namespace PixelAnimator{
                 currentAnimation = newState;
                 activeFrame = 0;
                 layers = newState.layers;
+                loop = newState.loop;
                 frameRate = newState.frameRate;
                 sprites = newState.sprites;
             }
