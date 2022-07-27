@@ -31,10 +31,13 @@ public class PlayerManager : MonoBehaviour
                 Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, _grabRange, _deadBodyLayer);
                 for (int i = 0; i < cols.Length; i++)
                 {
-                    if (cols[i].GetComponent<DeadBody>().isOnLava == false)
+                    if (cols[i].TryGetComponent<DeadBody>(out var body))
                     {
-                        GrabBody(cols[i].gameObject);
-                        break;
+                        if (body.isOnLava == false)
+                        {
+                            GrabBody(cols[i].gameObject);
+                            break;
+                        }
                     }
                 }
             }
