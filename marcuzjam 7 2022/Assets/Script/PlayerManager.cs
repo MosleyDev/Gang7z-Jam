@@ -42,6 +42,11 @@ public class PlayerManager : MonoBehaviour
                 }
             }
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameObject obj = DDOLCanvas.instance.pauseMenu;
+            obj.SetActive(!obj.activeInHierarchy);
+        }
     }
     public void Kill()
     {
