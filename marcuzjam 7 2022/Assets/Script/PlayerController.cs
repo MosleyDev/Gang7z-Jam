@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-        if (groundCheck)
+        if (groundCheck && !isGrabbingBody)
         {
 
             if (Input.GetKeyDown(KeyCode.Space))
@@ -66,14 +66,12 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (!groundCheck)
+        if (!groundCheck && !isGrabbingBody)
         {
-            if(isGrabbingBody && body.velocity.y < -2){
-                PlayerManager.Instance.DropBody();
-            }
+
             if (Mathf.Sign(body.velocity.y) >= 0)
                 anim.ChangeState(jump);
-            else if ( body.velocity.y < -0.5f)
+            else if ( body.velocity.y < 0)
                 anim.ChangeState(jump_To_Fall);
         }
 
