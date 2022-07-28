@@ -27,5 +27,9 @@ public class DeadBody : MonoBehaviour
             sj.enabled = true;
             sj.connectedAnchor = new Vector2(this.transform.position.x, this.transform.position.y + 0.5f);
         }
+        if (other.gameObject.CompareTag("Arrow"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
