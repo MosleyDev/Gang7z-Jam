@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: jump
   m_EditorClassIdentifier: 
   loop: 0
-  frameRate: 12
+  frameRate: 24
   sprites:
   - {fileID: 7562288238416716635, guid: 8e944b37f1ffbde458c96e17283d5cff, type: 3}
   - {fileID: -4143278121117960503, guid: 8e944b37f1ffbde458c96e17283d5cff, type: 3}

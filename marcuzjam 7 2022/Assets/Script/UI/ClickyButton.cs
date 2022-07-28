@@ -9,9 +9,7 @@ public class ClickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     [SerializeField] private Image _img;
     [SerializeField] private Sprite _default, _pressed;
-    [SerializeField] private AudioClip _compressClip, _uncompressClip;
-    [SerializeField] private AudioSource _source;
-
+    [SerializeField] private AudioClip _compressClip;
     private void Start()
     {
         _img.sprite = _default;
@@ -20,7 +18,7 @@ public class ClickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void OnPointerDown(PointerEventData eventData)
     {
         _img.sprite = _pressed;
-        _source.PlayOneShot(_compressClip);
+        SoundManager.Instance.PlaySound(_compressClip);
 
     }
 

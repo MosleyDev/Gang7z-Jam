@@ -15,15 +15,13 @@ namespace PixelAnimator{
         private SpriteRenderer spriteRenderer;
         private SpriteAnimatorPreferences preferences;
 
-        private float timer;
+        [SerializeField]private float timer;
         private int activeFrame;
-        private List<Layer> layers;
-        private List<Sprite> sprites;
-        [SerializeField]private bool loop;
-        private float frameRate;
+
         private Action action;
 
         private List<GameObject> gameObjects;
+        [SerializeField]private bool isLastFrame;
 
 
         
@@ -31,46 +29,54 @@ namespace PixelAnimator{
         private void Start() {
             preferences = (SpriteAnimatorPreferences) EditorGUIUtility.Load("SpriteAnimatorPreferences.asset");
             spriteRenderer = GetComponent<SpriteRenderer>();
-            sprites = new List<Sprite>();
-            layers = new List<Layer>();
             if(gameObjects == null )gameObjects = new List<GameObject>();
-            ApplyProperties();
-
             
         }
 
         private void Update() {
 
-
-            ApplyProperties();
-            Play();
+            if(currentAnimation != null){
+                
+                ApplyProperties();
+                Play();
+            }
             
 
         }
 
         private void Play(){
-            timer += (Time.deltaTime * frameRate);
+            var sprites = currentAnimation.sprites;
+            var loop = currentAnimation.loop;
+            
+            timer += (Time.deltaTime * currentAnimation.frameRate);
             if(timer >= 1f){
                 timer -= 1f;
-                activeFrame = (activeFrame + 1) % sprites.Count;
                 if(!loop){
+                    
+                    if(!isLastFrame)
+                        spriteRenderer.sprite = sprites[activeFrame];        
+
                     if(spriteRenderer.sprite == sprites[sprites.Count-1]){
                         if(action != null)action();
-                    }else{
-                        spriteRenderer.sprite = sprites[activeFrame];
+                        isLastFrame = true;
                     }
+
                         
                 }else if(loop){
                     spriteRenderer.sprite = sprites[activeFrame];        
 
                 }
+                activeFrame = (activeFrame + 1) % sprites.Count;
             }
         }
 
 
         private void ApplyProperties(){
 
-            if(layers.Count > 0){
+            if(currentAnimation.layers.Count > 0){
+                var layers = currentAnimation.layers;
+                var sprites = currentAnimation.sprites;
+
                 for(int i = 0; i < layers.Count; i++){
 
                     bool alreadyExist = gameObjects.Any(x => x.name == layers[i].group.boxType);
@@ -153,13 +159,9 @@ namespace PixelAnimator{
         public void ChangeState(SpriteAnimation newState){
             if(currentAnimation != newState){
                 currentAnimation = newState;
-                layers = newState.layers;
-                loop = newState.loop;
-                frameRate = newState.frameRate;
-                sprites = newState.sprites;
                 activeFrame = 0;
-                spriteRenderer.sprite = sprites[activeFrame];
                 timer = 0;
+                isLastFrame = false;
             }
     
         }
