@@ -201,7 +201,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 0
+      colissionTypes: 1
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -228,7 +228,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 0
+      colissionTypes: 1
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -255,7 +255,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 0
+      colissionTypes: 1
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -282,7 +282,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 0
+      colissionTypes: 1
       hitboxRect:
         serializedVersion: 2
         x: 9
@@ -309,7 +309,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 0
+      colissionTypes: 1
       hitboxRect:
         serializedVersion: 2
         x: 8
