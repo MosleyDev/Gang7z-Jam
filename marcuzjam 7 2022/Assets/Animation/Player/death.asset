@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc76e2fa67af4dabbf0f32c4e82debf, type: 3}
   m_Name: death
   m_EditorClassIdentifier: 
-  loop: 0
-  frameRate: 12
+  loop: 1
+  frameRate: 8
   sprites:
   - {fileID: -9111722173158122998, guid: bc35c7812ecd81e49bb5c068db9b0a41, type: 3}
   - {fileID: -97481911139070897, guid: bc35c7812ecd81e49bb5c068db9b0a41, type: 3}
