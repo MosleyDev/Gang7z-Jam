@@ -164,7 +164,7 @@ MonoBehaviour:
         y: 8
         width: 11
         height: 23
-    reSizeBox: 1
+    reSizeBox: 0
     onHandleTopleft: 0
     onHandleTopCenter: 0
     onHandleTopRight: 0
@@ -201,7 +201,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 1
+      colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -228,7 +228,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 1
+      colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -255,7 +255,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 1
+      colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
         x: 8
@@ -282,7 +282,7 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 1
+      colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
         x: 9
@@ -309,14 +309,14 @@ MonoBehaviour:
         vector3IntProps: []
         unityObjectProps: []
         gradientProps: []
-      colissionTypes: 1
+      colissionTypes: 0
       hitboxRect:
         serializedVersion: 2
         x: 8
         y: 3
         width: 19
         height: 7
-    reSizeBox: 0
+    reSizeBox: 1
     onHandleTopleft: 0
     onHandleTopCenter: 0
     onHandleTopRight: 0

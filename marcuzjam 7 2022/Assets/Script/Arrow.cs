@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Destroy(gameObject);
-    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             PlayerManager.Instance.Kill();
         }
