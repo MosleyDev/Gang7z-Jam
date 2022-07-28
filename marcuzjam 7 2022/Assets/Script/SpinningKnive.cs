@@ -39,5 +39,7 @@ public class SpinningKnive : MonoBehaviour
         {
             PlayerManager.Instance.Kill();
         }
+
+
     }
 }

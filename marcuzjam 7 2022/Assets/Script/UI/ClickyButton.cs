@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ClickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -26,7 +27,31 @@ public class ClickyButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         _img.sprite = _default;
 
+    }
 
+
+    public void GoToSettingsMenu(){
+
+        SceneManager.LoadScene(1);
 
     }
+
+    public void ResetScene(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
+
+    public void GoToChoiceChapters(){
+        SceneManager.LoadScene(3);
+    }
+
+    public void ExitGame(){
+        Application.Quit();
+    }
+
+    public void GoToMainMenu(){
+        SceneManager.LoadScene(0);
+    }
+
+
 }

@@ -67,6 +67,7 @@ namespace PixelAnimator{
 
                 }
                 activeFrame = (activeFrame + 1) % sprites.Count;
+                
             }
         }
 
@@ -89,6 +90,7 @@ namespace PixelAnimator{
                         gameObjects[index].layer = layers[i].group.activeLayer;
                         gameObjects[index].GetComponent<BoxCollider2D>().sharedMaterial = layers[i].group.physicMaterial;
                         gameObjects[index].transform.localPosition = Vector3.zero;
+                        gameObjects[index].transform.localRotation = Quaternion.identity;
                     }
 
 
@@ -132,7 +134,6 @@ namespace PixelAnimator{
                             var adjustedXOffset = ((adjustedHitboxOffset.x - sprites[activeFrame].rect.width/2)*sprites[activeFrame].bounds.size.x)/sprites[activeFrame].rect.width;
                             var adjustedYOffset = (((adjustedHitboxOffset.y - sprites[activeFrame].rect.height/2)*-1)*sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height;
                             boxCol.size = new Vector2(adjustedXSize, (size.y * sprites[activeFrame].bounds.size.y)/sprites[activeFrame].rect.height );
-
                             boxCol.offset = new Vector2( adjustedXOffset, adjustedYOffset);
                         }
                     }                    

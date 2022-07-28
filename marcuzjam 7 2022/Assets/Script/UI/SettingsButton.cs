@@ -5,11 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SettingsButton : MonoBehaviour{ 
 
-    public void GoToSettingsMenu(){
-        SceneManager.LoadScene(1);
 
-
-    }
 
 
 }

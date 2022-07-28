@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lava
   m_EditorClassIdentifier: 
   loop: 1
-  frameRate: 60
+  frameRate: 16
   sprites:
   - {fileID: 5522035972565706590, guid: 90690eb76eeb6fc4eb8d2a31b02019f0, type: 3}
   - {fileID: -1320101653099084672, guid: 90690eb76eeb6fc4eb8d2a31b02019f0, type: 3}

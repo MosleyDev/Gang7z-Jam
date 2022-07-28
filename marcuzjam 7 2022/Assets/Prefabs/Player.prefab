@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 3593199628533894654}
   - component: {fileID: 3593199628533894528}
   - component: {fileID: 3593199628533894529}
-  - component: {fileID: 3410325956463790333}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -213,20 +212,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f86ae7691eb2864493e6cfd882d8a9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3410325956463790333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3593199628533894650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04d619465e824e84d81a2cc2736098d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  footSteps: {fileID: 0}
-  audioSource: {fileID: 0}
-  triggerFootSpriteOne: {fileID: 0}
-  triggerFootSpriteTwo: {fileID: 0}
-  renderer: {fileID: 0}
+  timer: 0
+  isLastFrame: 0

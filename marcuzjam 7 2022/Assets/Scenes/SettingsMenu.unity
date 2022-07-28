@@ -269,7 +269,7 @@ RectTransform:
   m_GameObject: {fileID: 327492924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.3125, y: 2.8625, z: 1}
+  m_LocalScale: {x: 5.2125, y: 1, z: 1}
   m_Children:
   - {fileID: 501605920}
   - {fileID: 157039361}
@@ -280,7 +280,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 20}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327492926
 MonoBehaviour:
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 1322241274}
   - component: {fileID: 1322241273}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,8 +598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -305}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -2, y: -305}
+  m_SizeDelta: {x: 263.6252, y: 117.1668}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322241273
 MonoBehaviour:
@@ -644,7 +644,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1322241275}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1322241274}
+        m_TargetAssemblyTypeName: ClickyButton, Assembly-CSharp
+        m_MethodName: GoToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1322241274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,11 +670,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _img: {fileID: 1322241275}
-  _default: {fileID: -6116830935442187769, guid: 0307c063aed0df1458c7179f24f3f2e6, type: 3}
-  _pressed: {fileID: -1110213295148469846, guid: 0307c063aed0df1458c7179f24f3f2e6, type: 3}
+  _default: {fileID: 527953631270165849, guid: 30102b111643f1a4f959573f9b760bc1, type: 3}
+  _pressed: {fileID: -7715037564853632802, guid: 30102b111643f1a4f959573f9b760bc1, type: 3}
   _compressClip: {fileID: 8300000, guid: 718e1d32398bf3e498a3bfa2bcd686b0, type: 3}
-  _uncompressClip: {fileID: 0}
-  _source: {fileID: 0}
 --- !u!114 &1322241275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,7 +693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 527953631270165849, guid: 30102b111643f1a4f959573f9b760bc1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -15,7 +15,7 @@ public class PlayerTriggerChecker : MonoBehaviour
         {
             PlayerManager.Instance.Kill();
         }
-        else if (other.CompareTag("Player"))
+        else if (other.CompareTag("Door"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
